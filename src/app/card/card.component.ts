@@ -16,4 +16,8 @@ export class CardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addLike():void {
+    this.data_in_card.like+=1;
+  }
+
 }

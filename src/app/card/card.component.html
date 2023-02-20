@@ -3,5 +3,13 @@
   <div class="wrapper-text:">
     <div class="title">{{data_in_card.title}}</div>
     <div class="sub-title">{{data_in_card.subtitle}}</div>
+    <div class="sub-title">likes: {{data_in_card.like}}</div>
   </div>
+  <div>
+    <button (click)="addLike()">Like</button>
+  </div>
+  <div>
+    <input type="text" [(ngModel)]="data_in_card.title" placeholder="Change title of img">
+  </div>
+
 </div>
